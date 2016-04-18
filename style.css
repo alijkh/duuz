@@ -1,0 +1,111 @@
+body{
+	background-color: #eee;
+}
+
+.wraper{
+	width:75%;
+	background-color:#F7F6F6;
+}
+
+#game{
+	width: 400px;
+	padding:50px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+.title{
+	font-size: 1.5em;
+}
+
+.title > div{
+	opacity: 0.3;
+}
+
+.title .active{
+	opacity: 1;
+}
+
+.cell{
+	width: 100px;
+	height: 100px;
+	background-color: #ddd;
+	display: inline-block;
+	float: left;
+	border:1px solid #ccc;
+	cursor: pointer;
+	font-size: 7em;
+	line-height: 120px;
+}
+
+.cell:hover{
+	background-color: #eee
+}
+
+/*#game .cO{
+	color: #E04646;
+}
+
+#game .cX{
+	color: #4689E0;
+}*/
+
+.cell:disabled{
+	cursor: default;
+}
+/*#result{
+	position: absolute;
+	top: 150px;
+	right: 0;
+	left:  0;
+	line-height: 100px;
+	background-color: rgba(0,0,0,0.9);
+	color: #fff;
+	font-size: 5em;
+}
+*/
+/*#result p {font-size: 2rem}*/
+/*
+#resetBtn{
+	line-height: 50px;
+	border: none;
+	background-color: #357927;
+	padding: 10px 30px;
+	margin: 20px;
+	color: #fff;
+	font-size: 3em;
+	cursor: pointer;
+}
+
+footer{
+	position: fixed;
+	left: 2%;
+	bottom: 2%;
+
+}
+
+#resultTable{
+	text-align: left;
+	padding: 5% 2%;
+	font-size: 1.7em;
+}
+
+#resultTable .ttitle{
+background-color: #aaa;
+font-size: 0.6em;
+}
+#resultTable .tname{
+	width: 200px;
+
+}
+#resultTable span{
+	min-width: 60px;
+	display: inline-block;
+	text-align: center;
+}
+#resultTable span.total{
+	min-width: 120px;
+
+}*/
+
